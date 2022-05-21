@@ -25,7 +25,8 @@
     {{ with .Site.Params.endpoints.Microsub }}
     <link rel="microsub" href="{{ . }}" />{{ end }}
     {{ with .Site.Params.endpoints.Webmention}}
-    <link rel="webmention" href="{{ . }}" />{{ end }}
+    <link rel="webmention" href="{{ . }}/webmention" />
+    <link rel="webmention" href="{{ . }}/xmlrpc" />{{ end }}
     {{ with .Site.Params.paymentPointer }}
     <!-- Web Monetization payment pointer -->
     <meta name="monetization" content={{ . }}>

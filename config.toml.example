@@ -48,7 +48,8 @@ theme = "indigo"
     Auth = "https://indieauth.com/auth"
     Token = "https://tokens.indieauth.com/token"
     # To get webmention support, just register at webmention.io and paste the link for endpoint here.
-    #Webmention = "https://webmention.io/<yourusername>/webmention"
+    # Please leave out /webmention or /xmlrpc in this url, and no trailing slash.
+    #Webmention = "https://webmention.io/<yourusername>"
     # To get micropub support, you'll need to install a Micropub endpoint at your site and put its link there.
     # To get an endpoint with Hugo support, use nanopub: https://github.com/dg01d/nanopub
     # It will probably require some PHP hackery though, as it's fairly basic.
